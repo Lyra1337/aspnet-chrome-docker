@@ -31,4 +31,4 @@ jobs:
           context: .
           file: Full.Dockerfile
           push: true
-          tags: lyra1337/aspnet-chrome:latest-full,lyra1337/aspnet-chrome:latest-full-7.0-jammy
+          tags: lyra1337/aspnet-chrome:full,lyra1337/aspnet-chrome:full-7.0-jammy
