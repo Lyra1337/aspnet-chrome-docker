@@ -31,4 +31,4 @@ jobs:
           context: .
           file: Minimal-6.0.Dockerfile
           push: true
-          tags: lyra1337/aspnet-chrome:lts,lyra1337/aspnet-chrome:6.0-focal
+          tags: lyra1337/aspnet-chrome:lts,lyra1337/aspnet-chrome:6.0-jammy
