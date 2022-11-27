@@ -29,6 +29,6 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           context: .
-          file: Minimal.Dockerfile
+          file: Minimal-6.0.Dockerfile
           push: true
-          tags: lyra1337/aspnet-chrome:latest-minimal,lyra1337/aspnet-chrome:latest,lyra1337/aspnet-chrome:latest-7.0-jammy
+          tags: lyra1337/aspnet-chrome:latest-lts,lyra1337/aspnet-chrome:latest-6.0-jammy
